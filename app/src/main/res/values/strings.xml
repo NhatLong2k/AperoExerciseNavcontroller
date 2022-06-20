@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AperoExActivityFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="we_provide_you_with_the_best">We provide you with the best way to organize activities in the classroom</string>
+    <string name="join_now">Join Now</string>
+    <string name="sign_in">Sign In</string>
+    <string name="complete_the_form">Let\'s Complete The Form</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="back">Back</string>
+    <string name="pass_credentials">Pass The Credentials</string>
+    <string name="example_email">iqbal.syafiq.rozaan@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="join_us">Let\'s Join Us!</string>
+    <string name="example_full_name">Iqbal Shafiq Rozaan</string>
+    <string name="kelas_kita">Kelas Kita</string>
+</resources>
