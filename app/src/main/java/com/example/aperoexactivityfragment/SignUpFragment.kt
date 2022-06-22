@@ -17,14 +17,15 @@ class SignUpFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-//        return inflater.inflate(R.layout.fragment_sign_up, container, false)
         binding = FragmentSignUpBinding.inflate(inflater, container, false)
-        binding.txtJoinNow.setOnClickListener{
-            Navigation.findNavController(binding.root).navigate(R.id.action_signUpFragment_to_signUpFormFragment)
+        binding.txtJoinNow.setOnClickListener {
+            val action = SignUpFragmentDirections
+                .actionSignUpFragmentToSignUpFormFragment(binding.edtEmail.text.toString())
+            Navigation.findNavController(binding.root).navigate(action)
         }
         binding.txtSignIn.setOnClickListener {
-            Navigation.findNavController(binding.root).navigate(R.id.action_signUpFragment_to_signInFragment)
+            Navigation.findNavController(binding.root)
+                .navigate(R.id.action_signUpFragment_to_signInFragment)
         }
         return binding.root
     }

@@ -17,4 +17,8 @@
     <string name="join_us">Let\'s Join Us!</string>
     <string name="example_full_name">Iqbal Shafiq Rozaan</string>
     <string name="kelas_kita">Kelas Kita</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup_success">Sign up success</string>
+    <string name="do_not_let_empty">Do not let field empty</string>
+    <string name="error_confirm">confirm password is not the same with password</string>
 </resources>

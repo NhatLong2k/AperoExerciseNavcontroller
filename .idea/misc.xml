@@ -6,11 +6,13 @@
         <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/drawable/bg_bt.xml" value="0.195" />
         <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/drawable/bg_email.xml" value="0.195" />
         <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/drawable/ic_email.xml" value="0.226" />
+        <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/activity_home.xml" value="0.358695652173913" />
         <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/activity_splash.xml" value="0.358695652173913" />
         <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/fragment_sign_in.xml" value="0.18802083333333333" />
         <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/fragment_sign_up.xml" value="0.2" />
-        <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/fragment_sign_up_form.xml" value="0.16" />
+        <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/fragment_sign_up_form.xml" value="0.33" />
+        <entry key="..\:/NhatLong/AperoExActivityFragment/app/src/main/res/layout/item_user.xml" value="0.15341880341880343" />
       </map>
     </option>
   </component>

@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -31,6 +33,7 @@ android {
     }
 
     buildFeatures {
+        dataBinding true
         viewBinding true
     }
 }
@@ -49,4 +52,9 @@ dependencies {
 
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+
+    implementation("androidx.room:room-runtime:2.4.2")
+    kapt 'androidx.room:room-compiler:2.4.2'
+    implementation 'androidx.room:room-ktx:2.4.2'
 }

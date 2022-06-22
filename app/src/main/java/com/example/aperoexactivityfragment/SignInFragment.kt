@@ -15,10 +15,12 @@ class SignInFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         binding = FragmentSignInBinding.inflate(inflater, container, false)
 
-        binding.txtSignUp.setOnClickListener { Navigation.findNavController(binding.root).navigate(R.id.action_signInFragment_to_signUpFormFragment) }
+        binding.txtSignUp.setOnClickListener {
+            Navigation.findNavController(binding.root)
+                .navigate(R.id.action_signInFragment_to_signUpFormFragment)
+        }
 
         binding.txtBack.setOnClickListener {
             activity?.onBackPressed()

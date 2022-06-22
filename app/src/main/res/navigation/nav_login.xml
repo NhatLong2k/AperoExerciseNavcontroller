@@ -34,5 +34,8 @@
         <action
             android:id="@+id/action_signUpFormFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
+        <argument
+            android:name="email"
+            app:argType="string" />
     </fragment>
 </navigation>
